@@ -1,0 +1,105 @@
+body {
+    margin:0;
+    margin-left: 10px;
+    max-width: 900px;
+}
+div {
+    font-size: 1.1em;
+}
+.ts-css {
+    font-size: 19px;
+    font-weight: 100;
+    background: #f4caca;
+    padding: 0 10px;
+}
+.file {
+    background-color: indigo;
+    color: #fff;
+}
+.task-one ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+.task-one li {
+    text-align: center;
+     margin: 0 4px;
+    text-transform: capitalize;
+    background-color: tomato;
+}
+.task-one ul.fixed-w-p li {
+    margin: 0;
+    padding: 0 4px;
+}
+.task-one ul.fixed-w-inline {
+    display: inherit;
+}
+.task-one ul.fixed-w-inline li {
+    display: inline-block;
+}
+.task-one ul.fluid-w li {
+    width: 35%;
+}
+
+/* task - 2 */
+
+/* one */
+.task-two .link-color-one li {
+    color:red;
+  }
+  
+ .task-two a {
+    color:green; /* directly called */
+  }
+  
+  
+  /* two css*/
+.task-two .task-two .link-color-two {
+    color:red;
+  }
+  
+.task-two  .link-color-two div{
+    color:blue;
+  }
+.task-two  a {
+    color:green; /* directly called */
+  }
+  
+  /*  three css*/
+  
+ .task-two .link-color-three {
+    color:orange;
+  }
+.task-two  #linkColorThree {
+    color:red;
+  }
+  .task-two  #linkColorThreeTemp a {
+      color:gold;
+  }
+  /* four css*/
+.task-two  .link-color-four {
+    color:blue;
+  }
+.task-two  .another-link {
+    color:green;
+  }
+.task-two  .link-color-four.another-link {
+    color:purple;
+  }
+  
+  /* five css*/
+.task-two  .link-color-four {
+    color:blue !important;
+  }
+.task-two  .another-link {
+    color:green;
+  }
+.task-two  .link-color-four.another-link {
+    color:purple;
+  }
+
+/* task-3 */
+.task-three p::after {
+    content:" AgilityCIS"  /* \00a0 can be used for space*/
+  }
+

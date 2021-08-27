@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Practical Test</h1>
+    <div class="task-one">
+        <h2>Task-1</h2>
+        <div>Evenly spaced by default, uses flex. 8 pixel spacing through margin.</div>
+        <ul class="fixed-w-m">
+
+            <li>items</li>
+            <li>items</li>
+            <li>items</li>
+            <li>items</li>
+        </ul>
+        <div>Evenly spaced by default, uses flex. 8 pixel spacing through padding.</div>
+        <ul class="fixed-w-p">
+
+            <li>items</li>
+            <li>items</li>
+            <li>items</li>
+            <li>items</li>
+        </ul>
+        <div>Evenly spaced by default, uses display inline. But creates uncessasry gap apart from 8 pixels. Flex is the
+            best
+            solution.</div>
+        <ul class="fixed-w-inline">
+
+            <li>items</li>
+            <li>items</li>
+            <li>items</li>
+            <li>items</li>
+        </ul>
+        <div>Evenly spaced, 8 pixel spacing, but without an absolute width, keeps the 8 pixel spacing.</div>
+        <ul class="fluid-w">
+
+            <li>items</li>
+            <li>items</li>
+            <li>items</li>
+            <li>items</li>
+        </ul>
+    </div>
+    <h2>Task-2: <span class="ts-css">Please see CSS file style.css under task-2 for CSS for this task-2. </span></h2>
+    <div class="task-two">
+        <!-- Directly targeting the elements. -->
+        <div>01 Directly targeting the elements.</div>
+        <ul class="link-color-one">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 1</a></li>
+        </ul>
+
+        <div>02 Targeting the Specificity elements based on declaration. There are several methods according to last
+            declaration and way weight has put</div>
+        <!--Targeting the Specificity elements based on declaration. There are several methods according to last declaration and way weight has put -->
+
+        <ul class="link-color-two">
+            <span>This is a span text</span>
+            <div>This is a div text </div>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 1</a></li>
+        </ul>
+
+        <div>03 Using ID. Weight of ID higher than a class. But it is a relative term. Using ID just for styling is not
+            very common practice. ID should not be duplicated and use for JS purposes</div>
+        <!-- Using ID. Weight of ID higher than a class. But it is a relative term. Using ID just for styling is not very common practice. ID should not be duplicated and use for JS purposes. -->
+
+        <ul class="link-color-three" id="linkColorThree">
+            <span>This is a span text</span>
+            <div>This is a div text </div>
+            <li><a href="#">Link 1</a></li>
+            <li id="linkColorThreeTemp"><a href="#">Link 1</a></li>
+        </ul>
+
+        <div>04 Multi CSS declarations</div>
+        <!-- Multi CSS  declarations  -->
+
+        <ul class="link-color-four another-link">
+            <span>This is a span text</span>
+            <div>This is a div text </div>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 1</a></li>
+        </ul>
+
+        <div>05 Important exeption. This is not good practice but it may required but not encouraged practice. W3C
+            standards still supoorts though</div>
+        <!-- Important exeption. This is not good practice but it may required but not encouraged practice. W3C standards still supoorts though -->
+
+        <ul class="link-color-four another-link">
+            <span>This is a span text</span>
+            <div>This is a div text </div>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 1</a></li>
+        </ul>
+    </div>
+    <div class="task-three">
+        <h2>Task-3</h2>
+        <div class="ts-css">below p tag uses A CSS pseudo-class ::after. Please see CSS style.css under task-3 for the
+            class</div>
+        <p>Hello World</p>
+        <img src="task-3.png" alt="Task-3">
+    </div>
+    <div class="t-text ts-css">
+        Task-4, Task-5, Task-6,Task-7 and Task-8 can be found in the<span class="file"> custom.js </span>attached to this webpage.
+        Screenshots are attached as well.
+    </div>
+    <div class="t-img">
+        <h2>Task-4</h2>
+        <img src="Task-4.png" alt="Task-5">
+        <h2>Task-5</h2>
+        <img src="Task-5.png" alt="Task-5">
+        <h2>Task-6</h2>
+        <img src="Task-6.png" alt="Task-6">
+        <h2>Task-7, has omiited semicolons to increase presence</h2>
+        <img src="Task-7.png" alt="Task-7">
+        <h2>Task-8, too large for a screenshot in VS Code</h2>
+        <img src="Task-8.png" alt="Task-8">
+    </div>
+    <script src="custom.js"></script>
+</body>
+
+</html>
